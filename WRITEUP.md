@@ -2,10 +2,9 @@
 
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
+for this project, the size of application is small. Workflow is simple,only crud for content management. 
+So i don't need resources for complex compute or logic.
+To save the cost, i choose app service to deploy application.
 
 ### Assess app changes that would change your decision.
 
