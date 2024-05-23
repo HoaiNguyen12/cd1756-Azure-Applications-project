@@ -71,10 +71,10 @@ def login():
             app.logger.warning('Invalid login attempt')
             flash('Invalid username or password')
             return redirect(url_for('login'))
+        app.logger.warning('admin logged in successfully')
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
         if not next_page or url_quote(next_page).netloc != '':
-            app.logger.info('admin logged in successfully')
             next_page = url_for('home')
             return redirect(next_page)
     session["state"] = str(uuid.uuid4())
