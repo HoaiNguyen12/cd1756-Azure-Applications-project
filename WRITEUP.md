@@ -26,10 +26,7 @@ Disadvantages of Azure App Service
 
 
 ### Assess app changes that would change your decision.
-
-the size of this application is small with simple functions(only CRUD). I only need to push my code and run it.
-To save the cost, I choose app service to deploy application. mothly cost for VM is 137.24$ but for App service is 54.75$.
-Besides, when I choose app service, I have less control over infrastructure and settings. 
+Azure App Service is a Pass, so it will be limited to operating system management. In the future, If this app become bigger and more complicated which requires complex software dependencies, legacy components, or requires custom networking, hardware access, or specialized resources, I will choose the VMs solution. Because VMs provide better performance and Scaling ability.
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 URL: https://azure-prj1.azurewebsites.net/
